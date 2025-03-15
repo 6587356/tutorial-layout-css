@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after {
+   
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div .slide1 {
+    text-align: center;   
+}
+
+.margin-subtitle{
+    margin: 20px auto;
+}
+.logo{
+    background-color: #EDEDED;
+    text-align: center;
+    height: 150px;
+    
+    width: 100%;
+    margin:0 auto 20px auto;
+
+    
+}
+
+.border {
+    border: 3px solid rgb(106, 197, 172);
+}
+
+.title-logo {
+    color: rgb(41, 41, 42);
+    font-family: "bree serif", serif;
+    font-size: 32px;
+}
+
+.box-image {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    margin-right: -20px;
+    margin-top: 30px;
+}
+
+.box-h1 {
+    margin-left: 0;
+    height: 50px;
+    display: inline-block;
+}
+
+.img-logo {
+    height: 100%;
+    width: 80%;
+}
+
+.box-slide2 {
+    border: 3px solid rgb(106, 197, 172);
+    width: 600px;
+    margin: 16px auto 16px auto;
+}
+
+.max-width {
+    border: 3px solid rgb(106, 197, 172);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.simple {
+    box-sizing: content-box;
+    width: 500px;
+    margin: 20px auto;
+    border: 3px solid rgb(106, 197, 172);
+}
+
+.fancy {
+    box-sizing: content-box;
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: 10px solid rgb(106, 197, 172);
+}
+
+.simple2 {
+    
+    width: 500px;
+    margin: 20px auto;
+    border: 3px solid rgb(106, 197, 172);
+}
+
+.fancy2 {
+    
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: 10px solid rgb(106, 197, 172);
+}
+
+.relativo1 {
+    position: relative;
+}
+
+.relativo2 {
+    position: relative;
+    top: -5px;
+    left: 20px;
+    background-color: white;
+    width: 500px;
+}
+
+.fixed {
+    border: 3px solid rgb(253, 199, 47);
+    position: fixed;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: white;
+}
+
+.relativo3 {
+    position: relative;
+    width: 600px;
+    height: 400px;
+
+}
+
+.absolute {
+    position: absolute;
+    top: 120px;
+    border: 3px solid rgb(214, 64, 120);
+    right: 0;
+    width: 300px;
+    height: 200px;
+}
+
+.fake-body{
+    margin-bottom: 120px;
+}
+
+.container {
+    position: relative;
+}
+
+.navegacao {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    border: 3px solid rgb(214, 64, 120);
+  
+   
+}
+
+.navegacao ul li {
+   list-style-type: disc;
+   color: black;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.section-position {
+    margin-left: 200px;
+    border: 3px solid rgb(253, 199, 47);
+}
+
+.rodape {
+    position: fixed;
+    bottom: 120px;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    border: 3px solid rgb(150,192,46);
+}
+
+.img-float {
+    float: right;
+    margin: 0 0 1em 1em;
+}
