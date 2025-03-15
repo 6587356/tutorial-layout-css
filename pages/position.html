@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Position</title>
+</head>
+<body>
+    <div class="logo">
+        <div class="box-image">
+        <img class="img-logo" src="../images/logo.png" alt="">
+        </div>
+        <div class="box-h1">
+        <h1 class="title-logo">Aprenda Layout CSS</h1>
+        </div>
+    </div>
+    <div>
+        <h2 class="slide1 margin-subtitle">position</h2>
+    </div>
+    <div class="slide7">
+        <div class="static border">
+            <p>
+                static é o valor padrão. Um elemento com position: static; não seria posicionado de nenhuma maneira especial. Um elemento estático é dito não posicionado e um elemento com sua posição definida para qualquer outra coisa é dito posicionado .
+            </p>
+        </div>
+        <div class="relativo1 border">
+            <p>
+                relative se comporta da mesma forma, statica menos que você adicione algumas propriedades extras.
+            </p>
+        </div>
+        <div class="relativo2 border">
+            <p>
+                Definir as propriedades top, right, bottome leftde um elemento posicionado relativamente fará com que ele seja ajustado para longe de sua posição normal. Outros conteúdos não serão ajustados para caber em nenhuma lacuna deixada pelo elemento.
+            </p>
+        </div>
+        <div class="fixed">
+            <p>Olá! Não me dê atenção ainda.</p>
+        </div>
+        <div class="relativo3 border">      
+            <p>Este elemento é relativamente posicionado. Se este elemento fosse position: static;seu filho absolutamente posicionado escaparia e seria posicionado em relação ao corpo do documento.</p>
+            <div class="absolute">
+                <p>Este elemento é absolutamente posicionado. Ele é posicionado em relação ao seu pai.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Clear</title>
+</head>
+<body>
+    <div class="logo">
+        <div class="box-image">
+        <img class="img-logo" src="../images/logo.png" alt="">
+        </div>
+        <div class="box-h1">
+        <h1 class="title-logo">Aprenda Layout CSS</h1>
+        </div>
+    </div>
+    <div>
+        <h2 class="slide1 margin-subtitle">clear</h2>
+    </div>
+    <div class="box-float border">
+        <p>
+            Sinto como se estivesse flutuando!
+        </p>
+    </div>
+    <section style="border: 3px solid rgb(253, 199, 47); height: 120px;" >
+        <p>
+            Neste caso, o section elemento está realmente depois do div. No entanto, como o divé flutuado para a esquerda, é isso que acontece: o texto no sectioné flutuado ao redor do dive o sectionenvolve a coisa toda. E se quiséssemos sectionque o realmente aparecesse depois do elemento flutuado?
+        </p>
+    </section>
+    <div class="box-float border">
+        <p>Sinto como se estivesse flutuando!</p>
+    </div>
+    <section class="after-box">
+        <p>
+            Usando clear agora movemos esta seção para baixo do floated div. Você usa o valor left para limpar elementos floated para a esquerda. Você também pode limpar right e both.
+        </p>
+    </section>
+    
+</body>
+</html>

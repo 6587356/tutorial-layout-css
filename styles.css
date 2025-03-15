@@ -141,6 +141,7 @@ div .slide1 {
 
 .fake-body{
     margin-bottom: 120px;
+    height: 400px;
 }
 
 .container {
@@ -172,7 +173,7 @@ div .slide1 {
 
 .rodape {
     position: fixed;
-    bottom: 120px;
+    bottom: 0px;
     left: 0;
     height: 70px;
     background-color: white;
@@ -180,7 +181,31 @@ div .slide1 {
     border: 3px solid rgb(150,192,46);
 }
 
+.content{
+    height: 384px;
+    max-width: 600px;
+    margin: 1em auto;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: #EEEEEE   ;
+}
+
 .img-float {
     float: right;
     margin: 0 0 1em 1em;
+   
 }
+
+.box-float {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+
+.after-box {
+    clear: left;
+    border: 3px solid rgb(253, 199, 47);
+    height: 120px;
+}
+
